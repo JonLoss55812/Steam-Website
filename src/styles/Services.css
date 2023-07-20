@@ -1,0 +1,35 @@
+```css
+#services {
+    background-color: #010326;
+    color: #EAF205;
+    padding: 50px 0;
+}
+
+#services .service-item {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#services .service-item .service-icon {
+    flex: 0 0 60px;
+    margin-right: 20px;
+}
+
+#services .service-item .service-description {
+    flex: 1;
+}
+
+#services .service-item .service-description h3 {
+    color: #688EA6;
+    font-family: 'Geologica', sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#services .service-item .service-description p {
+    color: #F2E30C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+```

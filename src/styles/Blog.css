@@ -1,0 +1,45 @@
+#blog {
+    padding: 2rem 0;
+    background-color: #010326;
+    color: #EAF205;
+}
+
+.blog-post {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #688EA6;
+    border-radius: 5px;
+}
+
+.blog-post h2 {
+    font-family: 'Geologica', sans-serif;
+    font-size: 1.5rem;
+    color: #EAF205;
+    margin-bottom: 1rem;
+}
+
+.blog-post p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #F2E30C;
+}
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.blog-post a {
+    align-self: flex-end;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #888C11;
+    text-decoration: none;
+}
+
+.blog-post a:hover {
+    color: #EAF205;
+}

@@ -1,0 +1,23 @@
+As an AI, I'm unable to create directories or download files. However, I can guide you on how to populate the `public/fonts` directory.
+
+You should download the font files for Geologica, EB Garamond, and Roboto from a trusted source. These files are typically in `.ttf` or `.otf` format.
+
+Once downloaded, you should place these files in the `public/fonts` directory. The structure would look something like this:
+
+```
+public/fonts
+├── Geologica-Regular.ttf
+├── EB-Garamond-Regular.ttf
+└── Roboto-Regular.ttf
+```
+
+Remember to use the correct paths when referencing these fonts in your CSS files. For example:
+
+```css
+@font-face {
+    font-family: 'Geologica';
+    src: url('/fonts/Geologica-Regular.ttf') format('truetype');
+}
+```
+
+This is how you would populate the `public/fonts` directory.

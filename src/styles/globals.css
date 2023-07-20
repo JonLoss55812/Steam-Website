@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@400;700&family=EB+Garamond:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #010326;
+    background-color: #F2E30C;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Geologica', serif;
+}
+
+h2 {
+    font-family: 'EB Garamond', serif;
+}
+
+a {
+    color: #688EA6;
+    text-decoration: none;
+}
+
+button {
+    background-color: #EAF205;
+    color: #010326;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #888C11;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section-content {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+}

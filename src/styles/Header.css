@@ -1,0 +1,34 @@
+#header {
+    background-color: #010326;
+    color: #EAF205;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#header .logo {
+    font-family: 'Geologica', sans-serif;
+    font-size: 24px;
+    color: #EAF205;
+}
+
+#header .navigation {
+    display: flex;
+    gap: 20px;
+}
+
+#header .navigation a {
+    color: #EAF205;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+#header .cta {
+    background-color: #688EA6;
+    color: #010326;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
