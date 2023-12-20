@@ -1,0 +1,1 @@
+The "public/images" is a directory, not a file. It is used to store static assets like images which can be referenced in the code. As such, it doesn't contain any code to generate. It will be populated with images during the development process.
